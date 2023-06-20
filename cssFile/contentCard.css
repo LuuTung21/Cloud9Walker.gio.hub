@@ -1,44 +1,50 @@
 .container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
+max-width: 600px;
+margin: 0 auto;
+padding: 20px;
+background-color: #ffffff; /* Added background color /
+border-radius: 10px; / Increased border radius for a smoother look /
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); / Added box shadow */
 }
 
 .card {
-    background-color: #f5f5f5;
-    border-radius: 5px;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+background-color: #f5f5f5;
+border-radius: 5px;
+padding: 20px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 5%;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin-bottom: 5%;
 }
 
 .image img {
-    width: 15em;
-    height: 15em;
-    border-radius: 5px;
+width: 15em;
+height: 15em;
+border-radius: 50%; /* Changed border-radius to create a circular image /
+object-fit: cover; / Added object-fit to maintain aspect ratio /
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); / Added box shadow */
 }
 
 .horse-content {
-    text-align: center;
+text-align: center;
 }
 
 button {
-    font-size: 20px;
-    padding: 5px 10px;
-    border-radius: 5px;
-    background-color: #f5f5f5;
-    border: none;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
+font-size: 20px;
+padding: 8px 16px; /* Increased padding for more comfortable button size */
+border-radius: 5px;
+background-color: #f5f5f5;
+border: none;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+cursor: pointer;
 }
 
 button:hover {
-    background-color: #e5e5e5;
+background-color: #e5e5e5;
+transform: scale(1.05); /* Added a slight scale effect on hover */
 }
