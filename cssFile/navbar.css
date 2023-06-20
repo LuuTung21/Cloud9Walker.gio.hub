@@ -27,7 +27,6 @@ nav .links ul {
 nav .links ul li {
     display: inline-block;
     position: relative;
-    /* Added */
 }
 
 nav .links ul li a {
@@ -82,13 +81,11 @@ nav .links ul li:hover>ul {
 }
 
 nav .links ul li .arrow-icon {
-    /* Added */
     position: absolute;
     top: 50%;
     right: 5px;
     transform: translateY(-50%);
     font-size: 12px;
-    /* Adjust as desired */
 }
 
 nav .searchBox input[type="text"] {
